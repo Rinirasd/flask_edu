@@ -1,7 +1,6 @@
 from . import app , render_template
 
 
-
 @app.route("/cats/")
 def index() :
     cat_name = "Persik"
